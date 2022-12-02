@@ -14,7 +14,7 @@ contador () {
 	while test $(( min )) -lt $1; do
 		seg='0'
 		while test $(( seg )) -lt $2; do
-			sleep 0.03
+			sleep 1
 			echo ${min}:${seg}
 			seg=$(( seg + 1))
 		done
